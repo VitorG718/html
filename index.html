@@ -9,29 +9,65 @@
     <meta name="description" content="A site for HTML learning">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/source/styles/theme.css">
+    <link rel="stylesheet" href="/source/styles/general.css">
+
     <title>Home</title>
+
+    <style>
+        a {
+            text-decoration: none;
+            color: blueviolet;
+            text-emphasis: inherit;
+            font-size: 1.2rem;
+        }
+
+        #navbar {
+            width: 100vw;
+            height: 4rem;
+            background-color: ivory;
+        }
+
+        #homecontent {
+            display: flex;
+        }
+    </style>
 </head>
 
-<body>
-    <h1>Hello to everyone</h1>
+<body class="nomarging">
+    <div id="navbar"> </div>
+    <div style="background-color: rgb(53, 32, 66);" class="nomarging formatting" id="homecontent">
+        <div style="width: 400px;">
+            <h1>Hello to everyone</h1>
 
-    <p>My name is Vitor and this is my first website</p>
-    <p>I like so much <a href="https://www.youtube.com/watch?v=jiwuQ6UHMQg&t=4922s">Celt Music</a></p>
-    
-    <hr>
-    
-    <h1>Learning</h1>
-    <ul>
-        <li>
-            <a href="/source/pages/formmating.html">Formatação de texto</a>
-        </li>
-        <li>
-            <a href="/source/pages/quotations.html">Citações</a>
-        </li>
-        <li>
-            <a href="/source/pages/images.html">Imagens</a>
-        </li>
-    </ul>
+            <p>My name is Vitor and this is my first website</p>
+            <p>I like so much <a href="https://www.youtube.com/watch?v=jiwuQ6UHMQg&t=4922s">Celt Music</a></p>
+        </div>
+        <div style="width: 400px;">
+            <h1>Learning</h1>
+            <ul>
+                <li>
+                    <a href="/source/pages/formmating.html">Formatação de texto</a>
+                </li>
+                <li>
+                    <a href="/source/pages/quotations.html">Citações</a>
+                </li>
+                <li>
+                    <a href="/source/pages/images.html">Imagens</a>
+                </li>
+                <li>
+                    <a href="/source/pages/iframe.html">iFrame</a>
+                </li>
+                <li>
+                    <a href="/source/pages/video.html">Video</a>
+                </li>
+                <li>
+                    <a href="/source/pages/table.html">Table</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 </body>
 
 </html>
